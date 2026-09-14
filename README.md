@@ -50,3 +50,7 @@ O objetivo deste projeto é desenvolver uma aplicação simples para cálculo de
 ## 👨‍💻 Colaboradores
 
 **Davi Miranda, Daniel Guimarães, José Gustavo, Ian Brandrão, Vinícius Moreira, Enzo Gabriel**
+
+## Orientador
+
+**Professor Hudson Neves**
