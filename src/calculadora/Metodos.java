@@ -25,10 +25,6 @@ public class Metodos {
         }
     }
 
-    /**
-     * Solicita e valida a taxa de juros mensal (em porcentagem). Não aceita valores negativos.
-     * Retorna a taxa já convertida para decimal.
-     */
     public static float lerTaxaJuros(Scanner scanner) {
         float taxaPercentual;
 
@@ -50,9 +46,6 @@ public class Metodos {
         }
     }
 
-    /**
-     * Solicita e valida o prazo em meses. Não aceita valores negativos ou iguais a zero.
-     */
     public static int lerPrazoMeses(Scanner scanner) {
         int prazo;
 
@@ -87,10 +80,6 @@ public class Metodos {
         return (valorPresente * taxaMensal) / (1 - fator);
     }
 
-    /**
-     * Exibe o demonstrativo mês a mês (juros, amortização e saldo devedor)
-     * e, ao final, o resumo com total pago e total de juros.
-     */
     public static void exibirDemonstrativo(double valorEmprestimo, double taxaMensal, int prazoMeses, double valorParcela) {
         double saldoDevedor = valorEmprestimo;
         double totalJuros = 0.0;
